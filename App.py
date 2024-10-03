@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
+st.set_page_config(layout="wide")  # Ajusta el layout a 'wide' para mayor espacio
 st.title("Tablero de Dibujo Personalizado")
 
 # Barra lateral para personalizar la línea
@@ -27,8 +28,8 @@ canvas_result = st_canvas(
     stroke_width=stroke_width,  # Ancho de la línea
     stroke_color=stroke_color,  # Color de la línea
     background_color=bg_color,  # Color de fondo
-    height=400,
-    width=600,
+    height=500,
+    width=800,
     drawing_mode=drawing_mode,  # Tipo de dibujo (línea, círculo, etc.)
     key="canvas"
 )
