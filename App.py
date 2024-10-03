@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
 st.set_page_config(layout="wide")  # Ajusta el layout a 'wide' para mayor espacio
-st.title("Tablero de Dibujo Personalizado")
+st.title("Momento Art-Attack")
 
 # Barra lateral para personalizar la línea
 st.sidebar.header("Personalización de la línea")
